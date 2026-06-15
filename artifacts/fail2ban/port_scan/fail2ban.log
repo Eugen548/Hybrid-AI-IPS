@@ -1,0 +1,15 @@
+2026-03-25 17:51:06,366 fail2ban.server         [2605882]: INFO    --------------------------------------------------
+2026-03-25 17:51:06,366 fail2ban.server         [2605882]: INFO    Starting Fail2ban v1.0.2
+2026-03-25 17:51:06,367 fail2ban.observer       [2605882]: INFO    Observer start...
+2026-03-25 17:51:06,370 fail2ban.database       [2605882]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2026-03-25 17:51:06,370 fail2ban.jail           [2605882]: INFO    Creating new jail 'sshd'
+2026-03-25 17:51:06,443 fail2ban.jail           [2605882]: INFO    Jail 'sshd' uses pyinotify {}
+2026-03-25 17:51:06,449 fail2ban.jail           [2605882]: INFO    Initiated 'pyinotify' backend
+2026-03-25 17:51:06,452 fail2ban.filter         [2605882]: INFO      maxLines: 1
+2026-03-25 17:51:06,470 fail2ban.filter         [2605882]: INFO      maxRetry: 5
+2026-03-25 17:51:06,470 fail2ban.filter         [2605882]: INFO      findtime: 600
+2026-03-25 17:51:06,470 fail2ban.actions        [2605882]: INFO      banTime: 600
+2026-03-25 17:51:06,470 fail2ban.filter         [2605882]: INFO      encoding: UTF-8
+2026-03-25 17:51:06,470 fail2ban.filter         [2605882]: INFO    Added logfile: '/var/log/auth.log' (pos = 0, hash = 28048a3a9a575a6bfc20e56ae4be9c16cc1ca2eb)
+2026-03-25 17:51:06,475 fail2ban.jail           [2605882]: INFO    Jail 'sshd' started
+2026-03-25 17:51:06,476 fail2ban.actions        [2605882]: NOTICE  [sshd] Flush ticket(s) with iptables-multiport

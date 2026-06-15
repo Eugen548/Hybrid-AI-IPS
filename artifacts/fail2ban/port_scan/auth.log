@@ -1,0 +1,692 @@
+2026-03-25T17:51:06.297989+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:06.308628+02:00 cyber2-VMware-Virtual-Platform sudo:   cyber2 : TTY=pts/0 ; PWD=/home/cyber2 ; USER=root ; COMMAND=/usr/bin/truncate -s 0 /var/log/fail2ban.log
+2026-03-25T17:51:06.309490+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cyber2(uid=1000)
+2026-03-25T17:51:06.312799+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:06.325189+02:00 cyber2-VMware-Virtual-Platform sudo:   cyber2 : TTY=pts/0 ; PWD=/home/cyber2 ; USER=root ; COMMAND=/usr/bin/fail2ban-client unban --all
+2026-03-25T17:51:06.325935+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cyber2(uid=1000)
+2026-03-25T17:51:06.496201+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:06.624569+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:51:06.624832+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:06.702467+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:06.709289+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:51:06.709407+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:06.712851+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:12.616892+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:51:12.617170+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:12.688849+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:12.698412+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:51:12.698617+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:12.701700+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:18.626081+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:51:18.626669+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:18.698637+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:18.710923+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:51:18.711184+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:18.713036+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:24.625801+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:51:24.626750+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:24.701318+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:24.708993+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:51:24.709197+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:24.712372+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:30.625450+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:51:30.626274+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:30.713921+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:30.727537+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:51:30.728582+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:30.730911+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:36.633516+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:51:36.633754+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:36.709590+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:36.721292+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:51:36.721581+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:36.725128+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:42.625719+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:51:42.625963+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:42.700157+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:42.713388+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:51:42.713578+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:42.715422+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:48.620031+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:51:48.620836+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:48.693847+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:48.701536+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:51:48.701745+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:48.704818+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:54.623243+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:51:54.624114+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:54.699157+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:51:54.713401+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:51:54.714043+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:51:54.717602+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:00.623969+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:52:00.624343+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:00.692162+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:00.705520+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:52:00.706519+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:00.710208+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:06.627554+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:52:06.627852+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:06.700522+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:06.714280+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:52:06.714988+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:06.718442+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:12.617594+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:52:12.617850+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:12.693459+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:12.706807+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:52:12.707136+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:12.710508+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:18.625795+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:52:18.626267+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:18.698512+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:18.712227+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:52:18.712956+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:18.715010+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:24.629508+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:52:24.630499+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:24.700954+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:24.709291+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:52:24.710172+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:24.713316+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:30.616474+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:52:30.616974+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:30.693166+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:30.706460+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:52:30.706557+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:30.708281+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:36.636761+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:52:36.637045+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:36.712618+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:36.726543+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:52:36.727258+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:36.730996+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:42.628117+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:52:42.628387+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:42.701249+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:42.714803+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:52:42.716161+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:42.721297+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:48.627406+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:52:48.627843+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:48.700579+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:48.714476+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:52:48.715260+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:48.718067+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:54.638551+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:52:54.638929+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:54.712934+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:52:54.727034+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:52:54.728394+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:52:54.732201+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:00.620197+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:53:00.620767+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:00.697809+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:00.709510+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:53:00.710024+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:00.712035+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:06.627280+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:53:06.627486+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:06.699609+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:06.713759+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:53:06.714495+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:06.718014+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:12.627015+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:53:12.627585+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:12.700851+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:12.713491+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:53:12.713796+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:12.715296+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:18.617042+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:53:18.617885+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:18.693767+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:18.707714+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:53:18.708416+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:18.711955+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:24.630880+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:53:24.631190+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:24.707285+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:24.720669+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:53:24.720848+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:24.724187+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:30.628540+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:53:30.629632+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:30.713061+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:30.726629+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:53:30.726781+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:30.729028+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:36.638840+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:53:36.639188+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:36.715527+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:36.729062+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:53:36.729689+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:36.733608+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:42.628188+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:53:42.628701+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:42.696301+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:42.705545+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:53:42.705835+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:42.709653+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:48.622316+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:53:48.622565+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:48.695027+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:48.708134+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:53:48.708554+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:48.712275+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:54.616509+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:53:54.617854+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:54.699142+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:53:54.707246+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:53:54.707851+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:53:54.711593+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:00.634477+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:54:00.634844+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:00.707084+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:00.720806+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:54:00.721696+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:00.725292+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:06.614638+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:54:06.614902+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:06.686599+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:06.700332+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:54:06.701029+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:06.704613+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:12.630260+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:54:12.630878+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:12.708387+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:12.721513+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:54:12.722053+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:12.723891+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:18.627537+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:54:18.627788+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:18.704791+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:18.712644+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:54:18.712845+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:18.715954+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:24.628006+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:54:24.628628+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:24.702171+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:24.714688+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:54:24.715418+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:24.719068+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:25.226756+02:00 cyber2-VMware-Virtual-Platform sudo:   cyber2 : TTY=pts/1 ; PWD=/home/cyber2 ; USER=root ; COMMAND=/usr/bin/chown -R cyber2:cyber2 /opt/ips/classic-metrics/data/
+2026-03-25T17:54:25.227313+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cyber2(uid=1000)
+2026-03-25T17:54:25.228482+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:30.617011+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:54:30.617597+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:30.690351+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:30.703341+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:54:30.705283+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:30.706865+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:36.615762+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:54:36.616049+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:36.679801+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:36.693858+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:54:36.694523+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:36.698158+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:42.619398+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:54:42.619803+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:42.693316+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:42.707211+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:54:42.707319+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:42.709979+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:48.636480+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:54:48.636684+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:48.701720+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:48.716253+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:54:48.716538+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:48.718176+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:54.613495+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:54:54.613643+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:54.683228+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:54:54.689056+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:54:54.689645+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:54:54.691647+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:00.612290+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:55:00.613021+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:00.680049+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:00.692441+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:55:00.692903+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:00.694784+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:01.364461+02:00 cyber2-VMware-Virtual-Platform CRON[2608666]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-03-25T17:55:01.368997+02:00 cyber2-VMware-Virtual-Platform CRON[2608666]: pam_unix(cron:session): session closed for user root
+2026-03-25T17:55:06.629381+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:55:06.629629+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:06.702929+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:06.716391+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:55:06.717191+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:06.719066+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:12.622706+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:55:12.623295+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:12.702764+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:12.710539+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:55:12.710724+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:12.713737+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:18.631839+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:55:18.632649+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:18.710170+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:18.724510+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:55:18.725508+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:18.729485+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:24.632163+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:55:24.632750+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:24.698779+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:24.711923+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:55:24.712562+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:24.716172+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:30.620653+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:55:30.620912+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:30.695324+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:30.708304+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:55:30.708581+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:30.710492+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:36.625556+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:55:36.626149+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:36.700306+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:36.712854+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:55:36.712980+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:36.714139+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:42.617790+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:55:42.618003+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:42.691716+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:42.700353+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:55:42.700563+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:42.703779+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:48.627494+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:55:48.627678+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:48.708189+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:48.722508+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:55:48.723247+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:48.726848+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:54.636450+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:55:54.636630+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:54.711487+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:55:54.719168+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:55:54.719684+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:55:54.723582+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:00.628035+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:56:00.628774+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:00.705799+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:00.714386+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:56:00.714624+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:00.717975+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:06.622460+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:56:06.623160+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:06.691618+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:06.705486+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:56:06.706572+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:06.710439+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:12.623320+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:56:12.623445+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:12.691548+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:12.700071+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:56:12.700180+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:12.702830+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:18.631838+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:56:18.632603+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:18.706383+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:18.714024+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:56:18.714211+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:18.717526+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:24.635483+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:56:24.636139+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:24.711233+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:24.723359+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:56:24.724018+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:24.727550+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:30.616208+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:56:30.616777+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:30.691165+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:30.705865+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:56:30.708043+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:30.709569+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:36.617233+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:56:36.617844+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:36.691709+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:36.699382+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:56:36.699588+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:36.702680+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:42.616652+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:56:42.616898+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:42.691035+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:42.701366+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:56:42.701680+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:42.705051+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:48.625441+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:56:48.625807+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:48.700167+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:48.708131+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:56:48.708418+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:48.711572+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:54.618604+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:56:54.618976+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:54.693269+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:56:54.705492+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:56:54.706641+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:56:54.708859+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:00.640680+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:57:00.641520+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:00.715725+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:00.731528+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:57:00.732203+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:00.734254+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:06.625386+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:57:06.626058+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:06.699194+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:06.713484+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:57:06.714759+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:06.717111+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:12.623660+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:57:12.624513+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:12.698170+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:12.712475+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:57:12.713482+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:12.717417+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:18.634843+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:57:18.635416+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:18.714487+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:18.727544+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:57:18.727778+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:18.729715+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:24.632599+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:57:24.633277+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:24.709695+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:24.721805+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:57:24.722905+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:24.726544+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:30.618383+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:57:30.619227+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:30.693233+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:30.706376+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:57:30.706464+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:30.709617+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:36.630045+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:57:36.630462+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:36.704330+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:36.717939+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:57:36.718081+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:36.721376+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:42.619472+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:57:42.620209+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:42.694161+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:42.706430+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:57:42.706974+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:42.710671+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:48.621202+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:57:48.621741+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:48.689324+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:48.704374+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:57:48.704896+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:48.706722+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:54.641750+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:57:54.642480+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:54.716340+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:57:54.727814+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:57:54.728679+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:57:54.732538+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:00.620933+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:58:00.621650+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:00.694671+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:00.707440+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:58:00.707827+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:00.709772+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:06.626328+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:58:06.626563+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:06.701224+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:06.716356+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:58:06.716457+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:06.719620+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:12.635568+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:58:12.636119+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:12.711161+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:12.725344+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:58:12.726643+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:12.730370+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:18.627576+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:58:18.627759+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:18.701770+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:18.715894+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:58:18.716610+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:18.720160+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:24.623354+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:58:24.624122+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:24.699868+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:24.711385+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:58:24.712234+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:24.715799+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:30.631317+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:58:30.631483+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:30.706424+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:30.721481+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:58:30.721934+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:30.725486+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:36.632421+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:58:36.632613+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:36.711172+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:36.720195+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:58:36.720282+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:36.723108+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:42.628319+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:58:42.628446+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:42.701939+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:42.710281+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:58:42.710372+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:42.713705+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:48.633893+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:58:48.634603+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:48.707583+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:48.720691+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:58:48.721228+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:48.723438+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:54.622707+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:58:54.623060+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:54.698792+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:58:54.706457+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:58:54.706666+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:58:54.709803+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:00.607324+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:59:00.607537+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:00.682270+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:00.695396+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:59:00.696247+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:00.698427+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:06.619321+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:59:06.619687+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:06.693478+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:06.707453+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:59:06.708550+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:06.712358+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:12.581161+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:59:12.581732+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:12.647392+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:12.661323+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:59:12.661504+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:12.663770+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:18.575467+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:59:18.575705+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:18.645371+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:18.658380+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:59:18.658526+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:18.660436+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:24.615433+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:59:24.615668+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:24.690498+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:24.702844+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:59:24.703272+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:24.705234+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:30.635689+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:59:30.635956+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:30.709159+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:30.723341+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:59:30.723440+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:30.726075+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:36.613747+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:59:36.613935+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:36.688383+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:36.701950+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:59:36.702349+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:36.705781+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:42.624907+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:59:42.625248+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:42.702839+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:42.715972+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:59:42.716356+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:42.719917+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:48.619588+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:59:48.619844+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:48.695098+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:48.707951+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:59:48.708552+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:48.712064+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:54.628485+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T17:59:54.629514+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:54.709796+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T17:59:54.718283+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T17:59:54.718347+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T17:59:54.720199+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:00.630945+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:00:00.631472+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:00.696640+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:00.709446+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:00:00.709778+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:00.712978+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:06.617333+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:00:06.617944+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:06.690637+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:06.703381+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:00:06.716552+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:06.716646+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:12.631351+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:00:12.631671+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:12.704069+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:12.716013+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:00:12.716377+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:12.718125+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:18.617184+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:00:18.617776+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:18.691960+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:18.705153+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:00:18.705503+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:18.709084+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:24.634979+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:00:24.635483+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:24.710461+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:24.723297+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:00:24.723548+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:24.725448+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:30.624891+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:00:30.625308+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:30.697625+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:30.706046+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:00:30.706348+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:30.709346+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:36.623333+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:00:36.624279+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:36.697580+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:36.706677+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:00:36.706837+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:36.708389+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:42.623248+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:00:42.624639+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:42.692164+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:42.705467+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:00:42.705707+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:42.707565+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:48.617377+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:00:48.617672+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:48.690658+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:48.704613+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:00:48.705281+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:48.708804+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:54.604881+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:00:54.605681+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:54.682464+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:00:54.694707+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:00:54.695343+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:00:54.697170+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:00.625623+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:00.626480+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:00.717259+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:00.730573+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:01:00.730787+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:00.732727+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:06.626660+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:06.627145+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:06.703216+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:06.712203+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:01:06.712387+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:06.715572+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:12.592327+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:12.592483+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:12.669166+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:12.675273+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:01:12.675357+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:12.676918+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:17.896603+02:00 cyber2-VMware-Virtual-Platform sudo:   cyber2 : TTY=pts/0 ; PWD=/home/cyber2 ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:17.896952+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cyber2(uid=1000)
+2026-03-25T18:01:17.967578+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:18.618156+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:18.618649+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:18.695568+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:18.707574+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:01:18.707873+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:18.709830+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:24.613917+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:24.615161+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:24.689718+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:24.703899+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:01:24.705206+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:24.707566+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:30.634234+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:30.634862+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:30.709651+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:30.723690+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:01:30.724453+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:30.727173+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:36.625475+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:36.625786+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:36.699858+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:36.714398+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:01:36.714665+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:36.716651+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:42.619824+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:42.620110+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:42.694798+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:42.702546+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:01:42.702893+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:42.705786+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:48.623206+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:48.624210+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:48.699158+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:48.711385+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:01:48.712011+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:48.716190+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:54.629393+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:01:54.630047+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:54.702050+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:01:54.714884+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:01:54.715217+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:01:54.718644+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:02:00.623722+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:02:00.624028+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:02:00.691276+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:02:00.704315+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:02:00.704558+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:02:00.707972+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:02:06.624921+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:02:06.625216+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:02:06.700682+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:02:06.714508+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:02:06.714771+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:02:06.716553+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:02:12.608323+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-03-25T18:02:12.609116+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:02:12.679797+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:02:12.686287+02:00 cyber2-VMware-Virtual-Platform sudo:     root : PWD=/opt/ips/classic-metrics/collector ; USER=root ; COMMAND=/usr/sbin/iptables -L f2b-sshd -n
+2026-03-25T18:02:12.686829+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+2026-03-25T18:02:12.688428+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:02:15.804306+02:00 cyber2-VMware-Virtual-Platform sudo:   cyber2 : TTY=pts/0 ; PWD=/home/cyber2 ; USER=root ; COMMAND=/usr/bin/cp /var/log/fail2ban.log /home/cyber2/experiments_export/fail2ban/port_scan/portscan_classic_final_strict/
+2026-03-25T18:02:15.804903+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cyber2(uid=1000)
+2026-03-25T18:02:15.807816+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session closed for user root
+2026-03-25T18:02:15.815029+02:00 cyber2-VMware-Virtual-Platform sudo:   cyber2 : TTY=pts/0 ; PWD=/home/cyber2 ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/cyber2/experiments_export/fail2ban/port_scan/portscan_classic_final_strict/
+2026-03-25T18:02:15.815977+02:00 cyber2-VMware-Virtual-Platform sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cyber2(uid=1000)
