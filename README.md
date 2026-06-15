@@ -1,89 +1,182 @@
-Hybrid-AI-IPS
+# Hybrid-AI-IPS
 
-Overview
+## Overview
 
-Hybrid-AI-IPS is an experimental intrusion prevention framework that combines machine learning-based attack detection with kernel-level packet filtering. The framework integrates a Random Forest classifier, an LSTM network for temporal analysis, SHAP-based explainability, and eBPF/XDP enforcement.
-The implementation was developed as part of a doctoral research project focused on AI-assisted intrusion prevention systems.
+Hybrid-AI-IPS is an experimental AI-assisted intrusion prevention framework that combines machine learning-based attack detection with kernel-level packet filtering. The framework integrates a Random Forest (RF) classifier, an LSTM network for temporal behaviour analysis, SHAP-based explainability, and eBPF/XDP enforcement mechanisms.
 
-Architecture
+The implementation was developed as part of doctoral research focused on enhancing intrusion prevention systems through hybrid AI-driven log analysis and predictive blocking techniques.
+
+## Architecture
 
 The framework consists of the following components:
-•	ai_controller.py – event trigger and orchestration component.
-•	extractor.py – feature preparation module responsible for building the fixed-length feature vector expected by the AI models.
-•	ai_engine.py – machine learning inference engine integrating Random Forest, LSTM, and SHAP explainability.
-•	ai_server.py – management and enforcement server responsible for maintaining the blacklist and interacting with the pinned eBPF map.
-•	monitor_feedback.py – adaptive threshold monitoring component.
-•	train_rf.py – Random Forest training pipeline.
-•	train_lstm.py – LSTM training pipeline.
-•	xdp_block.c – eBPF/XDP program used for kernel-level packet filtering.
 
-Dataset
+### Source Code
 
-The machine learning models were trained using the CICIDS2017 dataset.
-Dataset reference:
-I. Sharafaldin, A. Habibi Lashkari, and A. A. Ghorbani,
-"Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization",
-ICISSP 2018.
-The dataset is not redistributed in this repository and must be obtained separately.
+* **ai_controller.py** – event trigger and orchestration component.
+* **extractor.py** – feature extraction and preprocessing module responsible for constructing the fixed-length feature vector expected by the AI models.
+* **ai_engine.py** – machine-learning inference engine integrating RF, LSTM, hybrid scoring, and SHAP explainability.
+* **ai_server.py** – management and enforcement server responsible for maintaining the blacklist and interacting with the pinned eBPF map.
+* **train_rf.py** – Random Forest training pipeline.
+* **train_lstm.py** – LSTM training pipeline.
 
-Requirements
+### Enforcement Layer
 
-Tested environment:
-•	Ubuntu 24.04 LTS
-•	Linux Kernel 6.x
-•	Python 3.12
-•	eBPF/XDP support enabled
-Install dependencies:
+* **xdp_block.c** – eBPF/XDP program used for kernel-level packet filtering and packet dropping.
+
+### Machine Learning Models
+
+* **rf_model.pkl** – trained Random Forest model.
+* **lstm_model.h5** – trained LSTM model.
+* **scaler.pkl** – feature scaler used during training and inference.
+* **features.pkl** – feature ordering metadata required for inference consistency.
+
+## Dataset
+
+The machine-learning models were trained using the CICIDS2017 dataset:
+
+> I. Sharafaldin, A. Habibi Lashkari, and A. A. Ghorbani, *Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization*, ICISSP 2018.
+
+The dataset is not redistributed in this repository and must be obtained separately from the original source.
+
+## Requirements
+
+### Tested Environment
+
+* Ubuntu 24.04 LTS
+* Linux Kernel 6.x
+* Python 3.12
+* Fail2Ban 1.0.2
+* eBPF/XDP support enabled
+
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+## Training the Models
 
-Model Training
+### Random Forest
 
-Random Forest:
-python3 train_rf.py
-LSTM:
-python3 train_lstm.py
+```bash
+python3 source_code/train_rf.py
+```
 
-Running the Framework
+### LSTM
 
-Start the AI inference engine:
-python3 ai_engine.py
-Start the management server:
-python3 ai_server.py
-Trigger an event:
-python3 ai_controller.py --ban <IP_ADDRESS>
+```bash
+python3 source_code/train_lstm.py
+```
 
-Repository Structure
+## Running the Framework
 
-├── ai_controller.py
-├── ai_engine.py
-├── ai_server.py
-├── extractor.py
-├── train_rf.py
-├── train_lstm.py
-├── xdp_block.c
-├── rf_model.pkl
-├── lstm_model.h5
-├── scaler.pkl
-├── features.pkl
-├── requirements.txt
+### Start the AI Inference Engine
+
+```bash
+python3 source_code/ai_engine.py
+```
+
+### Start the Management Server
+
+```bash
+python3 source_code/ai_server.py
+```
+
+### Trigger an Event
+
+```bash
+python3 source_code/ai_controller.py --ban <IP_ADDRESS>
+```
+
+## Repository Structure
+
+
+Hybrid-AI-IPS/
+│
 ├── README.md
+├── LICENSE
 ├── CITATION.cff
-└── LICENSE
+├── requirements.txt
+├── REPRODUCIBILITY.md
+│
+├── source_code/
+│   ├── ai_controller.py
+│   ├── ai_engine.py
+│   ├── ai_server.py
+│   ├── extractor.py
+│   ├── train_rf.py
+│   └── train_lstm.py
+│
+├── models/
+│   ├── rf_model.pkl
+│   ├── lstm_model.h5
+│   ├── scaler.pkl
+│   └── features.pkl
+│
+├── ebpf/
+│   └── xdp_block.c
+│
+└── artifacts/
+    ├── ai_ips/
+    │   ├── benign/
+    │   ├── brute_force/
+    │   ├── slow_brute_force/
+    │   └── port_scan/
+    │
+    └── fail2ban/
+        ├── benign/
+        ├── brute_force/
+        ├── slow_brute_force/
+        └── port_scan/
 
-Notes on Reproducibility
+## Experimental Artifacts
 
-The repository contains the implementation used for the experimental proof-of-concept evaluation described in the associated publication.
-Some deployment-specific paths, network settings, and runtime configuration parameters may require adaptation to the target environment.
-For reproducibility purposes, the feature extraction module contains a simplified flow reconstruction example. In a production deployment, these values can be replaced by flow statistics collected through CICFlowMeter-compatible tools, tshark, conntrack, or equivalent monitoring mechanisms.
-The feature order used during training is stored in:
-features.pkl
-and must remain unchanged during inference.
+To support reproducibility, the repository includes raw experimental artefacts for both the proposed AI-IPS framework and the Fail2Ban baseline.
 
-Limitations
+### AI-IPS Artifacts
 
-The current implementation was evaluated in a controlled virtualized environment and focuses primarily on SSH brute-force attack mitigation.
-The framework should be considered a research prototype rather than a production-ready intrusion prevention system.
+For each experimental scenario:
 
-License
+* metrics.csv
+* events_pull.jsonl
+* kernel_blocked.jsonl
+* blacklist_meta.json
+
+### Fail2Ban Artifacts
+
+For each experimental scenario:
+
+* auth.log
+* fail2ban.log
+* metrics.csv
+
+### Evaluated Scenarios
+
+* Benign traffic
+* SSH brute-force attack
+* Slow SSH brute-force attack
+* Port scanning
+
+The provided artefacts contain decision traces, resource-monitoring measurements, kernel-level enforcement records, and baseline logs used during the evaluation reported in the associated publication.
+
+## Reproducibility
+
+The repository includes:
+
+* source code;
+* trained model files and metadata;
+* eBPF/XDP enforcement code;
+* experimental artefacts;
+* monitoring datasets;
+* baseline comparison logs.
+
+Detailed reproduction information is provided in **REPRODUCIBILITY.md**.
+
+## Limitations
+
+The current implementation was evaluated in a controlled virtualized environment and focuses primarily on SSH brute-force attack mitigation. The framework should be considered a research prototype rather than a production-ready intrusion prevention system.
+
+The implementation was designed as a proof-of-concept platform for studying the integration of machine learning, explainable AI, and kernel-level enforcement mechanisms within intrusion prevention systems.
+
+## License
 
 This repository is provided for research and educational purposes.
