@@ -1,0 +1,24 @@
+2026-03-24 15:08:03,706 fail2ban.server         [1971425]: INFO    --------------------------------------------------
+2026-03-24 15:08:03,706 fail2ban.server         [1971425]: INFO    Starting Fail2ban v1.0.2
+2026-03-24 15:08:03,706 fail2ban.observer       [1971425]: INFO    Observer start...
+2026-03-24 15:08:03,711 fail2ban.database       [1971425]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2026-03-24 15:08:03,712 fail2ban.jail           [1971425]: INFO    Creating new jail 'sshd'
+2026-03-24 15:08:03,782 fail2ban.jail           [1971425]: INFO    Jail 'sshd' uses pyinotify {}
+2026-03-24 15:08:03,788 fail2ban.jail           [1971425]: INFO    Initiated 'pyinotify' backend
+2026-03-24 15:08:03,790 fail2ban.filter         [1971425]: INFO      maxLines: 1
+2026-03-24 15:08:03,805 fail2ban.filter         [1971425]: INFO      maxRetry: 5
+2026-03-24 15:08:03,805 fail2ban.filter         [1971425]: INFO      findtime: 600
+2026-03-24 15:08:03,805 fail2ban.actions        [1971425]: INFO      banTime: 600
+2026-03-24 15:08:03,805 fail2ban.filter         [1971425]: INFO      encoding: UTF-8
+2026-03-24 15:08:03,806 fail2ban.filter         [1971425]: INFO    Added logfile: '/var/log/auth.log' (pos = 0, hash = b1dad2b1fad81cd07b507842522262eeabd599be)
+2026-03-24 15:08:03,810 fail2ban.jail           [1971425]: INFO    Jail 'sshd' started
+2026-03-25 11:18:47,710 fail2ban.filter         [1971425]: INFO    [sshd] Found 172.32.32.6 - 2026-03-25 11:18:47
+2026-03-25 11:18:47,882 fail2ban.filter         [1971425]: INFO    [sshd] Found 172.32.32.6 - 2026-03-25 11:18:47
+2026-03-25 11:18:47,886 fail2ban.filter         [1971425]: INFO    [sshd] Found 172.32.32.6 - 2026-03-25 11:18:47
+2026-03-25 11:18:47,894 fail2ban.filter         [1971425]: INFO    [sshd] Found 172.32.32.6 - 2026-03-25 11:18:47
+2026-03-25 11:18:47,896 fail2ban.filter         [1971425]: INFO    [sshd] Found 172.32.32.6 - 2026-03-25 11:18:47
+2026-03-25 11:18:48,694 fail2ban.actions        [1971425]: NOTICE  [sshd] Ban 172.32.32.6
+2026-03-25 11:18:50,114 fail2ban.filter         [1971425]: INFO    [sshd] Found 172.32.32.6 - 2026-03-25 11:18:50
+2026-03-25 11:18:50,118 fail2ban.filter         [1971425]: INFO    [sshd] Found 172.32.32.6 - 2026-03-25 11:18:50
+2026-03-25 11:18:50,126 fail2ban.filter         [1971425]: INFO    [sshd] Found 172.32.32.6 - 2026-03-25 11:18:50
+2026-03-25 11:18:50,129 fail2ban.filter         [1971425]: INFO    [sshd] Found 172.32.32.6 - 2026-03-25 11:18:50
