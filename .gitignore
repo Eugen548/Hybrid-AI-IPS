@@ -1,0 +1,35 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Local configuration files
+.env
+*.local
+
+# Runtime logs and temporary files
+*.log
+*.tmp
+*.jsonl
+
+# Local experiment outputs
+events_pull.jsonl
+kernel_blocked.jsonl
+metrics.csv
+performance_feedback.log
+blacklist_meta.json
+dynamic_config.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/

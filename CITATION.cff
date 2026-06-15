@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: Hybrid-AI-IPS
+authors:
+  - family-names: Bucur
+    given-names: Catalin-Eugen
+repository-code: https://github.com/Eugen548/Hybrid-AI-IPS
+license: MIT
