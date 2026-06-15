@@ -16,6 +16,8 @@ The framework consists of the following components:
 * **extractor.py** – feature extraction and preprocessing module responsible for constructing the fixed-length feature vector expected by the AI models.
 * **ai_engine.py** – machine-learning inference engine integrating RF, LSTM, hybrid scoring, and SHAP explainability.
 * **ai_server.py** – management and enforcement server responsible for maintaining the blacklist and interacting with the pinned eBPF map.
+* **metrics_collector.py** – resource monitoring component used to collect CPU, memory, and network statistics during experiments.
+* **unban_trigger.py** – auxiliary component responsible for synchronizing unban actions with the AI management server and the eBPF/XDP blacklist.
 * **train_rf.py** – Random Forest training pipeline.
 * **train_lstm.py** – LSTM training pipeline.
 
